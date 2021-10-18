@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './LottoNumbers.css';
 
 class LottoNumbers extends Component {
   static defaultProps = {
@@ -10,26 +11,31 @@ class LottoNumbers extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      digits: new Array(this.props.numQuantity),
+      digits: new Array(this.props.numQuantity).fill(
+        <li className="LottoNumbers-hide"></li>
+      ),
     };
     this.createLottoNums = this.createLottoNums.bind(this);
   }
 
-  createLottoNums() {
+  createLottoNums = () => {
     this.setState(() => {
-      const result = [...new Array(this.props.numQuantity)].map((el) =>
-        Math.floor(Math.random() * (this.props.maxNum + 1))
-      );
+      const result = [...new Array(this.props.numQuantity)].map(() => (
+        <li>{Math.floor(Math.random() * (this.props.maxNum + 1))}</li>
+      ));
 
       return { digits: result };
     });
-  }
+  };
 
   render() {
     return (
-      <div>
-        {this.props.numQuantity} , {this.props.maxNum} , {this.props.title} ,
-        <button onClick={this.createLottoNums}></button>
+      <div className="Lotto-Ticket">
+        <div>
+          <h3>{this.props.title}</h3>
+          <ul>{this.state.digits}</ul>
+        </div>
+        <button onClick={this.createLottoNums}>Generate</button>
       </div>
     );
   }
