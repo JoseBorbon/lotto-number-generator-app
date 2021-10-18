@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/joseborbon.github.io/lotto-number-generator-app/static/css/main.747a7d83.chunk.css",
+    "main.js": "/joseborbon.github.io/lotto-number-generator-app/static/js/main.234c6ba8.chunk.js",
+    "main.js.map": "/joseborbon.github.io/lotto-number-generator-app/static/js/main.234c6ba8.chunk.js.map",
+    "runtime-main.js": "/joseborbon.github.io/lotto-number-generator-app/static/js/runtime-main.55d939f1.js",
+    "runtime-main.js.map": "/joseborbon.github.io/lotto-number-generator-app/static/js/runtime-main.55d939f1.js.map",
+    "static/js/2.f8c662b4.chunk.js": "/joseborbon.github.io/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js",
+    "static/js/2.f8c662b4.chunk.js.map": "/joseborbon.github.io/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js.map",
+    "index.html": "/joseborbon.github.io/lotto-number-generator-app/index.html",
+    "static/css/main.747a7d83.chunk.css.map": "/joseborbon.github.io/lotto-number-generator-app/static/css/main.747a7d83.chunk.css.map",
+    "static/js/2.f8c662b4.chunk.js.LICENSE.txt": "/joseborbon.github.io/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55d939f1.js",
+    "static/js/2.f8c662b4.chunk.js",
+    "static/css/main.747a7d83.chunk.css",
+    "static/js/main.234c6ba8.chunk.js"
+  ]
+}
