@@ -20,8 +20,8 @@ li {
   margin: 3px;
   color: white;
   background-color: rgb(224, 93, 69);
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -40,5 +40,5 @@ button {
   color: white;
   border: none;
   border-radius: 7px;
-  font-size: 15px;
+  font-size: 120%;
 }

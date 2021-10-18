@@ -32,7 +32,7 @@ class LottoNumbers extends Component {
     return (
       <div className="Lotto-Ticket">
         <div>
-          <h3>{this.props.title}</h3>
+          <h1>{this.props.title}</h1>
           <ul>{this.state.digits}</ul>
         </div>
         <button onClick={this.createLottoNums}>Generate</button>
