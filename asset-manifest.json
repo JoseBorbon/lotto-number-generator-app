@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lotto-number-generator-app/static/css/main.747a7d83.chunk.css",
-    "main.js": "/lotto-number-generator-app/static/js/main.234c6ba8.chunk.js",
-    "main.js.map": "/lotto-number-generator-app/static/js/main.234c6ba8.chunk.js.map",
+    "main.css": "/lotto-number-generator-app/static/css/main.2eb5d3d7.chunk.css",
+    "main.js": "/lotto-number-generator-app/static/js/main.5fe07f52.chunk.js",
+    "main.js.map": "/lotto-number-generator-app/static/js/main.5fe07f52.chunk.js.map",
     "runtime-main.js": "/lotto-number-generator-app/static/js/runtime-main.de78e334.js",
     "runtime-main.js.map": "/lotto-number-generator-app/static/js/runtime-main.de78e334.js.map",
     "static/js/2.f8c662b4.chunk.js": "/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js",
     "static/js/2.f8c662b4.chunk.js.map": "/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js.map",
     "index.html": "/lotto-number-generator-app/index.html",
-    "static/css/main.747a7d83.chunk.css.map": "/lotto-number-generator-app/static/css/main.747a7d83.chunk.css.map",
+    "static/css/main.2eb5d3d7.chunk.css.map": "/lotto-number-generator-app/static/css/main.2eb5d3d7.chunk.css.map",
     "static/js/2.f8c662b4.chunk.js.LICENSE.txt": "/lotto-number-generator-app/static/js/2.f8c662b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.de78e334.js",
     "static/js/2.f8c662b4.chunk.js",
-    "static/css/main.747a7d83.chunk.css",
-    "static/js/main.234c6ba8.chunk.js"
+    "static/css/main.2eb5d3d7.chunk.css",
+    "static/js/main.5fe07f52.chunk.js"
   ]
 }
